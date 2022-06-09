@@ -206,3 +206,19 @@
 //         return arr
 //     }
 // }))
+
+
+//Fazer uma funcao que receba um array e retorne um novo array e para cada posicao desse array que tiver um numero par retorne o numero com - par na frente e para cada posicao que tenha um impar retorne o numero com - impar na frente e quando for zero retorne a string zero ao invés do numero 0.
+
+// var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
+
+// let resultado = array.map(function(p) {
+//    if (p === 0) {
+//        return ('Zero')
+//    }else if(p % 2 ==0) {
+//        return `${p} - par`
+//    }else {
+//        return `${p} - Impar`
+//    }
+// })
+// console.log(resultado)
